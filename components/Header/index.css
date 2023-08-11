@@ -1,0 +1,349 @@
+.header-container {
+  height: 15vh;
+  width: 100%;
+  background-color: #f8fafc;
+  display: grid;
+  place-items: center;
+}
+.header-sub-sec {
+  width: 90%;
+  height: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.header-logo-container {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  height: 10vh;
+}
+.header-ul-container {
+  padding: 0px;
+  margin: 0px;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  height: 10vh;
+  width: 40%;
+  font-size: 16px;
+  font-weight: 700;
+  color: #334155;
+}
+.button {
+  background: #f7931e;
+  border-radius: 8px;
+  color: #ffffff;
+  width: 73px;
+  height: 32px;
+  border-style: none;
+  cursor: pointer;
+}
+
+.header-website-logo {
+  width: 53px;
+  height: 43px;
+  background-size: cover;
+  margin-bottom: 0px;
+  margin-right: 10px;
+}
+.header-website-heading {
+  color: #f7931e;
+  font-size: 24px;
+  font-style: italic;
+  font-weight: 700;
+  line-height: 0px;
+  letter-spacing: 0px;
+  margin-top: 10px;
+}
+.home-text {
+  margin-right: 30px;
+}
+.color-home-text {
+  margin-right: 30px;
+  color: orangered;
+  text-decoration: underline;
+  font-size: larger;
+}
+.cart-text {
+  margin-right: 30px;
+}
+.color-cart-text {
+  margin-right: 30px;
+  color: orangered;
+  text-decoration: underline;
+  font-size: larger;
+}
+.link {
+  text-decoration: none;
+  color: #334155;
+}
+.span-ele {
+  color: #4287f5;
+}
+.popup-container {
+  align-self: center;
+  height: 100vh;
+  width: 1200px;
+  background-size: cover;
+  background-color: transparent;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.popup-card {
+  height: 20vh;
+  width: 400px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-size: 20px;
+  font-weight: 700;
+  color: #334155;
+  font-family: serif;
+  border-top-left-radius: 80px;
+  border-bottom-right-radius: 80px;
+  border-top-right-radius: 80px;
+  border-bottom-left-radius: 80px;
+  background-image: linear-gradient(to top left, #ffcc00 0%, #ff99cc 100%);
+  border-style: solid;
+  border-width: 2px;
+  border-color: red;
+}
+.confirm-btn {
+  background-color: green;
+  height: 40px;
+  width: 120px;
+  border-style: none;
+  border-radius: 18px;
+  font-size: 15px;
+  color: #ffffff;
+  margin-right: 20px;
+  cursor: pointer;
+}
+.cancel-btn {
+  background-color: red;
+  height: 40px;
+  width: 120px;
+  border-style: none;
+  border-radius: 18px;
+  font-size: 15px;
+  color: #ffffff;
+  cursor: progress;
+  margin-bottom: 20px;
+}
+
+@media (max-height: 767px) {
+  .header-container {
+    height: 10vh;
+  }
+
+  .header-logo-container {
+    width: 100%;
+    height: 8vh;
+  }
+  .header-ul-container {
+    height: 8vh;
+    width: 40%;
+  }
+  .button {
+    background: #f7931e;
+    border-radius: 8px;
+    color: #ffffff;
+    width: 73px;
+    height: 32px;
+    border-style: none;
+    cursor: pointer;
+  }
+  .header-website-heading {
+    font-size: 20px;
+    line-height: 15px;
+  }
+  .home-text {
+    margin-right: 30px;
+    display: none;
+  }
+  .color-home-text {
+    margin-right: 30px;
+    color: orangered;
+    text-decoration: underline;
+    font-size: larger;
+    display: none;
+  }
+  .color-home-icon {
+    margin-right: 30px;
+    color: orangered;
+    font-size: larger;
+    font-size: 25px;
+  }
+  .home-icon {
+    margin-right: 30px;
+    font-size: 22px;
+  }
+
+  .cart-text {
+    margin-right: 30px;
+    display: none;
+  }
+  .color-cart-text {
+    margin-right: 30px;
+    color: orangered;
+    text-decoration: underline;
+    font-size: larger;
+    display: none;
+  }
+  .cart-icon {
+    margin-right: 30px;
+    font-size: 22px;
+  }
+  .color-cart-icon {
+    margin-right: 30px;
+    color: orangered;
+    font-size: larger;
+    font-size: 25px;
+  }
+  .logout-btn-container {
+    display: none;
+  }
+  .logout-icon-container {
+    display: block;
+  }
+  .logout-icon {
+    color: #ffffff;
+    border-radius: 8px;
+    background-color: #f7931e;
+    width: 40px;
+    height: 42px;
+    border-style: none;
+    cursor: pointer;
+    font-size: 25px;
+  }
+  .span-ele {
+    color: #4287f5;
+    font-size: 22px;
+  }
+  .popup-container {
+    height: 100vh;
+    width: 550px;
+    background-size: cover;
+  }
+}
+
+@media (min-height: 768px) {
+  .header-container {
+    height: 10vh;
+  }
+  .header-logo-container {
+    width: 100%;
+    height: 8vh;
+  }
+  .header-ul-container {
+    height: 8vh;
+    width: 40%;
+    font-size: 16px;
+    font-weight: 700;
+    color: #334155;
+  }
+
+  .color-home-icon {
+    display: none;
+  }
+  .home-icon {
+    display: none;
+  }
+
+  .cart-icon {
+    display: none;
+  }
+  .color-cart-icon {
+    display: none;
+  }
+  .logout-btn-container {
+    display: block;
+  }
+  .logout-icon-container {
+    display: none;
+  }
+}
+
+@media (orientation: landscape) {
+  .header-logo-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 100%;
+    height: 10vh;
+  }
+  .popup-container {
+    width: 1400px;
+    height: 90vh;
+  }
+  .color-home-icon {
+    display: none;
+  }
+  .home-icon {
+    display: none;
+  }
+
+  .cart-icon {
+    display: none;
+  }
+  .color-cart-icon {
+    display: none;
+  }
+  .logout-btn-container {
+    display: block;
+  }
+  .logout-icon-container {
+    display: none;
+  }
+
+  .home-text {
+    margin-right: 30px;
+    display: none;
+  }
+  .color-home-text {
+    margin-right: 30px;
+    color: orangered;
+    text-decoration: underline;
+    font-size: larger;
+    display: none;
+  }
+  .color-home-icon {
+    margin-right: 30px;
+    color: orangered;
+    font-size: larger;
+    font-size: 25px;
+  }
+  .home-icon {
+    margin-right: 30px;
+    font-size: 22px;
+  }
+
+  .cart-text {
+    margin-right: 30px;
+    display: block;
+  }
+  .color-cart-text {
+    margin-right: 30px;
+    color: orangered;
+    text-decoration: underline;
+    font-size: larger;
+    display: block;
+  }
+
+  .home-text {
+    margin-right: 30px;
+    display: block;
+  }
+  .color-home-text {
+    margin-right: 30px;
+    color: orangered;
+    text-decoration: underline;
+    font-size: larger;
+    display: block;
+  }
+}

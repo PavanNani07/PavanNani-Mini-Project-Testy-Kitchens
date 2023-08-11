@@ -1,0 +1,19 @@
+.home-page {
+  background-color: #ffffff;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  overflow-y: auto;
+}
+.carousel-sec {
+  align-self: center;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  width: 90%;
+}
+
+.restaurant-sec {
+  width: 100%;
+  align-self: center;
+}

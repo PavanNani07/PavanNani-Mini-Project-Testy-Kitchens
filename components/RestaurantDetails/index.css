@@ -1,0 +1,312 @@
+.restaurant-info-page {
+  display: flex;
+  flex-direction: column;
+}
+
+.restaurant-info-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.restaurant-info-card-container {
+  background-image: url('https://res.cloudinary.com/djr2g813p/image/upload/v1684589546/Frame_279_zttwrp.jpg');
+  height: 344px;
+  width: 100%;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.restaurant-details-sec {
+  align-self: center;
+  width: 90%;
+  display: flex;
+  align-items: center;
+  margin-top: 20px;
+}
+.card-img {
+  width: 445px;
+  height: 280px;
+  border-radius: 8px;
+  background-size: cover;
+}
+
+.rd-text-container {
+  margin-left: 20px;
+  color: #ffffff;
+  font-family: 'Roboto';
+}
+.rating-and-cost-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 50%;
+  height: 30px;
+}
+.rd-rating-container {
+  display: flex;
+  align-items: center;
+}
+.rd-cost-container {
+  display: flex;
+  align-items: center;
+}
+.rd-count-container {
+  height: 25px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: #e2e8f0;
+  font-size: 12px;
+  width: 50%;
+}
+.v-bar {
+  color: #e2e8f0;
+  height: 40px;
+  width: 33px;
+  margin-top: 20px;
+}
+.rd-ul-container {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin: 0px;
+  padding: 0px;
+  width: 90%;
+  align-self: center;
+}
+
+.rd-loader-container {
+  height: 80vh;
+  display: grid;
+  place-items: center;
+}
+.rd-star {
+  height: 12px;
+  width: 12px;
+}
+
+@media (max-height: 767px) {
+  .restaurant-info-card-container {
+    height: 40vh;
+    width: 100%;
+  }
+
+  .restaurant-details-sec {
+    align-self: center;
+    width: 100%;
+    height: 90%;
+    display: flex;
+    align-items: center;
+    margin-top: 0px;
+  }
+  .card-img {
+    width: 221px;
+    height: 221px;
+    border-radius: 134px;
+    background-size: cover;
+    margin-left: 20px;
+  }
+
+  .rd-heading {
+    font-size: 18px;
+  }
+  .rd-paragraph {
+    font-size: 15px;
+  }
+
+  .rating-and-cost-container {
+    width: 55%;
+    height: 30px;
+  }
+  .rd-rating-container {
+    display: flex;
+    align-items: center;
+  }
+  .rd-cost-container {
+    display: flex;
+    align-items: center;
+  }
+  .rd-count-container {
+    font-size: 12px;
+    width: 55%;
+  }
+  .rd-text-container {
+    font-size: 14px;
+  }
+  .v-bar {
+    height: 45px;
+    width: 25px;
+    margin-top: 30px;
+  }
+  .rd-ul-container {
+    align-self: center;
+    display: flex;
+    flex-direction: column;
+    margin: 0px;
+    padding: 0px;
+    width: 90%;
+  }
+}
+
+@media (min-height: 768px) {
+  .restaurant-info-card-container {
+    height: 35vh;
+    width: 100%;
+    display: grid;
+    place-items: center;
+  }
+  .restaurant-details-sec {
+    margin-top: -30px;
+    width: 90%;
+    height: 90%;
+    display: flex;
+    align-items: center;
+  }
+  .card-img {
+    width: 50%;
+    height: 80%;
+    border-radius: 25px;
+    background-size: cover;
+  }
+
+  .rd-text-container {
+    width: 50%;
+    height: 80%;
+  }
+  .rd-heading {
+    font-size: 25px;
+  }
+  .rd-paragraph {
+    font-size: 20px;
+  }
+  .rating-and-cost-container {
+    width: 80%;
+  }
+  .rd-count-container {
+    width: 80%;
+  }
+  .rd-rating {
+    font-size: 18px;
+  }
+
+  .rd-review-text {
+    font-size: 18px;
+  }
+  .rd-cost-for-two-text {
+    font-size: 18px;
+  }
+  .rd-star {
+    height: 25px;
+    width: 25px;
+    margin-right: 10px;
+  }
+  .rd-rupees {
+    height: 20px;
+    width: 20px;
+    margin-right: 10px;
+  }
+  .v-bar {
+    color: #e2e8f0;
+    height: 50px;
+    width: 33px;
+    margin-top: 25px;
+  }
+  .rd-ul-container {
+    align-self: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    margin: 0px;
+    padding: 0px;
+    width: 90%;
+  }
+}
+
+@media (orientation: landscape) {
+  .restaurant-info-card-container {
+    height: 344px;
+    width: 100%;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .restaurant-details-sec {
+    margin-top: 5px;
+    width: 93%;
+  }
+  .card-img {
+    width: 50%;
+    height: 280px;
+    border-radius: 18px;
+    background-size: cover;
+  }
+
+  .rd-heading {
+    font-size: 30px;
+  }
+  .rd-paragraph {
+    font-size: 22px;
+  }
+  .rd-text-container {
+    margin-left: 20px;
+    width: 50%;
+    height: 280px;
+  }
+  .rating-and-cost-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 50%;
+    height: 30px;
+  }
+  .rd-rating-container {
+    display: flex;
+    align-items: center;
+  }
+  .rd-cost-container {
+    display: flex;
+    align-items: center;
+  }
+  .rd-count-container {
+    height: 25px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #e2e8f0;
+    font-size: 12px;
+    width: 50%;
+  }
+  .v-bar {
+    color: #e2e8f0;
+    height: 50px;
+    width: 33px;
+    margin-top: 25px;
+  }
+  .rd-ul-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin: 0px;
+    padding: 0px;
+    width: 90%;
+    align-self: center;
+  }
+
+  .rd-loader-container {
+    height: 80vh;
+    display: grid;
+    place-items: center;
+  }
+  .rd-star {
+    height: 25px;
+    width: 25px;
+  }
+  .rd-price {
+    font-size: 20px;
+  }
+}
